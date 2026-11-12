@@ -1,0 +1,86 @@
+﻿Query_ID,Sentence,Detected_Word,Predicted_Sense_ID,Predicted_Meaning,Cosine_Similarity,All_Candidate_Similarities,Explanation,Ground_Truth_Sense_ID,Is_Correct,Confidence
+1060,বনকৰ্মীসকলে আহত জন্তুটোক সুৰক্ষিতভাৱে ধৰিলে।,ধৰা,DHORA_01,Catch / Hold,0.0635,"{'DHORA_01': 0.0635, 'DHORA_02': 0.0563}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('ধৰিলে') that characteristic of the 'Catch / Hold' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'ধৰা' operates within the domain of Catch / Hold, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) DHORA_02 ('Assume') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",DHORA_01,True,0.88
+655,মই উত্তৰ লিখাৰ আগতে অংকটো পুনৰ পৰীক্ষা কৰিলোঁ।,উত্তৰ,UTTAR_01,Answer,0.1419,"{'UTTAR_01': 0.1419, 'UTTAR_02': 0.0391}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('পৰীক্ষা', 'কৰিলোঁ', 'লিখাৰ', 'পুনৰ') that characteristic of the 'Answer' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'উত্তৰ' operates within the domain of Answer, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) UTTAR_02 ('North') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",ONKO_01,False,0.88
+655,মই উত্তৰ লিখাৰ আগতে অংকটো পুনৰ পৰীক্ষা কৰিলোঁ।,অংক,ONKO_01,Mathematics,0.1615,"{'ONKO_01': 0.1615, 'ONKO_02': 0.0923}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('কৰিলোঁ', 'উত্তৰ', 'অংকটো', 'পুনৰ') that characteristic of the 'Mathematics' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'অংক' operates within the domain of Mathematics, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) ONKO_02 ('Act of a drama') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",ONKO_01,True,0.88
+1173,তাল গছৰ পাত ব্যৱহাৰ কৰি পঁজা সাজিছিল।,তাল,TAL_02,Palm tree,0.1043,"{'TAL_01': 0.0211, 'TAL_02': 0.1043, 'TAL_03': 0.0269}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('গছৰ') that characteristic of the 'Palm tree' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'তাল' operates within the domain of Palm tree, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) TAL_01 ('Rhythm'), TAL_03 ('Cymbal') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",TAL_02,True,0.88
+1173,তাল গছৰ পাত ব্যৱহাৰ কৰি পঁজা সাজিছিল।,পাত,PAT_01,Leaf,0.1699,"{'PAT_01': 0.1699, 'PAT_02': 0.0299}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('ব্যৱহাৰ', 'গছৰ') that characteristic of the 'Leaf' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'পাত' operates within the domain of Leaf, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) PAT_02 ('Page') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",TAL_02,False,0.88
+1161,আমাৰ বাৰীত এটা ওখ তাল গছ আছে।,তাল,TAL_02,Palm tree,0.142,"{'TAL_01': 0.0138, 'TAL_02': 0.142, 'TAL_03': 0.0242}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('আছে', 'এটা', 'গছ') that characteristic of the 'Palm tree' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'তাল' operates within the domain of Palm tree, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) TAL_01 ('Rhythm'), TAL_03 ('Cymbal') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",TAL_02,True,0.88
+906,বাৰক তিনিৰে ভাগ কৰিলে চাৰি পোৱা যায়।,ভাগ,BHAG_02,Division,0.1053,"{'BHAG_01': 0.056, 'BHAG_02': 0.1053}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('কৰিলে', 'পোৱা', 'যায়') that characteristic of the 'Division' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'ভাগ' operates within the domain of Division, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) BHAG_01 ('Share') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",BHAG_02,True,0.88
+297,গুণৰ ফলাফলক গুণফল বুলি কোৱা হয়।,গুণ,GUN_01,Quality / Virtue,0.0281,"{'GUN_01': 0.0281, 'GUN_02': 0.078}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('গুণৰ', 'হয়') that characteristic of the 'Quality / Virtue' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'গুণ' operates within the domain of Quality / Virtue, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) GUN_02 ('Multiplication') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",GUN_02,False,0.88
+789,এই আচাৰত নহৰু আৰু আদা দিয়া হৈছে।,আচাৰ,ACHAR_02,Pickle,0.1137,"{'ACHAR_01': 0.0634, 'ACHAR_02': 0.1137}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('দিয়া', 'আচাৰত', 'হৈছে', 'আৰু') that characteristic of the 'Pickle' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'আচাৰ' operates within the domain of Pickle, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) ACHAR_01 ('Behaviour') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",ACHAR_02,True,0.88
+429,মন্দিৰৰ ওপৰত সোণালী কলহ জিলিকি আছে।,ওপৰ,OPOR_01,Above / On top / On,0.1441,"{'OPOR_01': 0.1441, 'OPOR_02': 0.0447}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('ওপৰত', 'আছে') that characteristic of the 'Above / On top / On' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'ওপৰ' operates within the domain of Above / On top / On, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) OPOR_02 ('Responsibility') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",OPOR_01,True,0.88
+182,ডাক্তৰে শিশুটিক মুখ বহলকৈ মেলিবলৈ ক'লে।,মুখ,MUKH_01,Mouth,0.0522,"{'MUKH_01': 0.0522, 'MUKH_02': 0.0334}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('ডাক্তৰে', 'লে') that characteristic of the 'Mouth' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'মুখ' operates within the domain of Mouth, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) MUKH_02 ('Opening') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",MUKH_01,True,0.88
+9,প্ৰতিযোগিতাত কোনে প্ৰথমে উত্তৰ দিলে?,উত্তৰ,UTTAR_01,Answer,0.0254,"{'UTTAR_01': 0.0254, 'UTTAR_02': 0.0195}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('দিলে') that characteristic of the 'Answer' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'উত্তৰ' operates within the domain of Answer, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) UTTAR_02 ('North') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",UTTAR_01,True,0.88
+1302,কমেডিয়ানজনৰ কৌতুকত ৰস আছে।,ৰস,ROS_02,Taste/Flavour,0.0226,"{'ROS_01': 0.0, 'ROS_02': 0.0226, 'ROS_03': 0.0607}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('আছে') that characteristic of the 'Taste/Flavour' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'ৰস' operates within the domain of Taste/Flavour, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) ROS_01 ('Juice'), ROS_03 ('Humour') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",ROS_03,False,0.88
+874,সততাৰ ফলত তেওঁ সকলোৰে বিশ্বাস লাভ কৰিলে।,ফল,FOL_02,Result,0.0814,"{'FOL_01': 0.0231, 'FOL_02': 0.0814}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('কৰিলে', 'ফলত', 'লাভ') that characteristic of the 'Result' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'ফল' operates within the domain of Result, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) FOL_01 ('Fruit') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",FOL_02,True,0.88
+19,"মই কিয় পলম কৰিলোঁ, তাৰ উত্তৰ তেওঁ বিচাৰিলে।",উত্তৰ,UTTAR_01,Answer,0.0684,"{'UTTAR_01': 0.0684, 'UTTAR_02': 0.0232}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('কৰিলোঁ', 'কিয়', 'তেওঁ', 'তাৰ') that characteristic of the 'Answer' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'উত্তৰ' operates within the domain of Answer, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) UTTAR_02 ('North') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",UTTAR_01,True,0.88
+520,পৰীক্ষাৰ আদি ঘণ্টাত প্ৰশ্নকাকত বিতৰণ কৰা হৈছিল।,আদি,ADI_02,Etcetera,0.0508,"{'ADI_01': 0.0341, 'ADI_02': 0.0508}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('পৰীক্ষাৰ', 'বিতৰণ', 'হৈছিল', 'কৰা') that characteristic of the 'Etcetera' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'আদি' operates within the domain of Etcetera, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) ADI_01 ('Beginning') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",ADI_01,False,0.88
+1144,তেওঁ সংগীতৰ তাল বজাই ৰাখিলে।,তাল,TAL_01,Rhythm,0.0882,"{'TAL_01': 0.0882, 'TAL_02': 0.0172, 'TAL_03': 0.0898}","• Contextual Evidence: Identified strong lexical co-occurrences in the sentence ('সংগীতৰ', 'তেওঁ', 'বজাই') that characteristic of the 'Rhythm' sense in the Assamese corpus.
+
+• Semantic Domain & Function: The ambiguous word 'তাল' operates within the domain of Rhythm, forming cohesive collocations with the sentential head and predicate.
+
+• Contrastive Discrimination: Alternative candidate sense(s) TAL_02 ('Palm tree'), TAL_03 ('Cymbal') are excluded due to the complete lack of corresponding thematic markers or domain indicators in this sentence.",TAL_01,True,0.88

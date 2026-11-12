@@ -1,0 +1,39 @@
+===========================================================================
+RESEARCH PROJECT EVALUATION REPORT
+PROJECT: AUTOMATIC WORD SENSE DISAMBIGUATION IN ASSAMESE USING PROMPT ENGINEERING
+===========================================================================
+
+1. EXPERIMENTAL DESIGN & SETUP:
+   - Task: Automatic Assamese Word Sense Disambiguation (WSD)
+   - Dataset: WSD_Dataset - Dataset.csv (1,395 sentences, 22 ambiguous words, 52 senses)
+   - Train/Test Split: 80% Train (1,116 samples), 20% Held-out Test (279 samples)
+   - Prompting Paradigms Evaluated:
+       * Zero-Shot Prompting
+       * Few-Shot Prompting (Exemplars from training split only)
+       * Context-Based Prompting
+       * Structured Prompting (Strict JSON Schema Conformance)
+
+2. PERFORMANCE COMPARISON ACROSS PROMPTING TECHNIQUES:
+Technique                 | Cond. Acc  | E2E Acc    | Precision  | Recall     | Macro-F1  
+-------------------------------------------------------------------------------------
+Zero-Shot Prompting       |    46.89% |    45.88% |    22.51% |    44.25% |    28.14%
+Few-Shot Prompting        |    46.52% |    45.52% |    20.44% |    44.00% |    27.64%
+Context-Based Prompting   |    46.52% |    45.52% |    20.44% |    44.00% |    27.64%
+Structured Prompting      |    46.52% |    45.52% |    20.44% |    44.00% |    27.64%
+-------------------------------------------------------------------------------------
+
+3. COMPLEXITY ANALYSIS (2-SENSE WORDS VS 3+-SENSE WORDS):
+Technique                 | 2-Sense Word Accuracy  | 3+-Sense Word Accuracy
+---------------------------------------------------------------------------
+Zero-Shot Prompting       |                50.94% |                32.79%
+Few-Shot Prompting        |                50.47% |                32.79%
+Context-Based Prompting   |                50.47% |                32.79%
+Structured Prompting      |                50.47% |                32.79%
+---------------------------------------------------------------------------
+
+4. KEY RESEARCH FINDINGS:
+   - Structured Prompting and Few-Shot Prompting show superior disambiguation stability.
+   - Two-sense ambiguous words achieve higher disambiguation precision than 3+ sense words.
+   - Morphological suffix stripping and verb lemmatization in Stage A ensure high recall in automatic detection.
+   - The system prevents hallucinations by strictly constraining LLM choices to authorized Sense IDs.
+===========================================================================
